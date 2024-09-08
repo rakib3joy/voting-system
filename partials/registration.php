@@ -14,7 +14,7 @@
     <div class = "bg-success py-4">
         <h2 class = "text-center">Register Account</h2>
         <div class = "container text-center">
-            <form action = ""> 
+            <form action = "../actions/register.php" method="POST"> 
                <div class="mb-3">
                   <input type="text" class ="form-control w-50 m-auto" 
                   name = "username" placeholder = "Enter your username" required = "required">
@@ -31,10 +31,10 @@
                   <input type="password" class ="form-control w-50 m-auto" 
                   name = "cpassword" placeholder = "Confirm password" required = "required" maxLength="20" minLength="8">
                </div> 
-               <div class="mb-3">
+               <!-- <div class="mb-3">
                   <input type="file" class ="form-control w-50 m-auto" 
                   name = "photo">
-               </div> 
+               </div>  -->
 
                <div class="mb-3">
                   <select name="std" class="form-select w-50 m-auto">
